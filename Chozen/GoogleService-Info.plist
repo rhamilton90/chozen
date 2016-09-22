@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>1022883578489-1ufcgfhhg7e7pe181rbh49nen4a80luh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1022883578489-1ufcgfhhg7e7pe181rbh49nen4a80luh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA9iZBLTXXxK3GZDOUkzHytXOOav56WUvg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1022883578489</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.staptix.Chozen</string>
+	<key>PROJECT_ID</key>
+	<string>chozen-92c35</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chozen-92c35.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1022883578489:ios:d3121d25aab770cb</string>
+	<key>DATABASE_URL</key>
+	<string>https://chozen-92c35.firebaseio.com</string>
+</dict>
+</plist>

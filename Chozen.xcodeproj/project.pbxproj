@@ -8,22 +8,57 @@
 
 /* Begin PBXBuildFile section */
 		0200395C1D8A1E0E00830A67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0200395B1D8A1E0E00830A67 /* AppDelegate.swift */; };
-		0200395E1D8A1E0E00830A67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0200395D1D8A1E0E00830A67 /* ViewController.swift */; };
-		020039611D8A1E0E00830A67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0200395F1D8A1E0E00830A67 /* Main.storyboard */; };
 		020039641D8A1E0E00830A67 /* Chozen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 020039621D8A1E0E00830A67 /* Chozen.xcdatamodeld */; };
 		020039661D8A1E0E00830A67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020039651D8A1E0E00830A67 /* Assets.xcassets */; };
 		020039691D8A1E0E00830A67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020039671D8A1E0E00830A67 /* LaunchScreen.storyboard */; };
+		020039711D8A258E00830A67 /* MainMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020039701D8A258E00830A67 /* MainMapVC.swift */; };
+		020039731D8A259D00830A67 /* SideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020039721D8A259D00830A67 /* SideVC.swift */; };
+		020D8EA81D91020C000710CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020D8EA71D91020C000710CC /* Main.storyboard */; };
+		0230D7461D8CBE0400AF0212 /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = 0230D73D1D8CBE0400AF0212 /* GeoFire.m */; };
+		0230D7471D8CBE0400AF0212 /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0230D73F1D8CBE0400AF0212 /* GFBase32Utils.m */; };
+		0230D7481D8CBE0400AF0212 /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 0230D7411D8CBE0400AF0212 /* GFGeoHash.m */; };
+		0230D7491D8CBE0400AF0212 /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 0230D7431D8CBE0400AF0212 /* GFGeoHashQuery.m */; };
+		0230D74A1D8CBE0400AF0212 /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 0230D7451D8CBE0400AF0212 /* GFQuery.m */; };
+		0247A9441D90CF2300927ED3 /* BusinessAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247A9431D90CF2300927ED3 /* BusinessAnnotation.swift */; };
+		025F7C0D1D8CFA8A00D86C9D /* AVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F7C0C1D8CFA8A00D86C9D /* AVViewController.swift */; };
+		0293DC391D8A26E600C56CA6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0293DC381D8A26E600C56CA6 /* GoogleService-Info.plist */; };
+		02C881831D8F84790041AC0E /* coffeeShop.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 02C881821D8F84790041AC0E /* coffeeShop.mp4 */; };
+		EA4FFB73FB99475AD8EDB3EB /* Pods_Chozen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA20C1195887EDD2F5EE1A21 /* Pods_Chozen.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		020039581D8A1E0E00830A67 /* Chozen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chozen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0200395B1D8A1E0E00830A67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0200395D1D8A1E0E00830A67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		020039601D8A1E0E00830A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		020039631D8A1E0E00830A67 /* Chozen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chozen.xcdatamodel; sourceTree = "<group>"; };
 		020039651D8A1E0E00830A67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		020039681D8A1E0E00830A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0200396A1D8A1E0E00830A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020039701D8A258E00830A67 /* MainMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMapVC.swift; sourceTree = "<group>"; };
+		020039721D8A259D00830A67 /* SideVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideVC.swift; sourceTree = "<group>"; };
+		020D8EA71D91020C000710CC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0230D7361D8CBE0400AF0212 /* GeoFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFire.h; sourceTree = "<group>"; };
+		0230D7371D8CBE0400AF0212 /* GFCircleQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCircleQuery.h; sourceTree = "<group>"; };
+		0230D7381D8CBE0400AF0212 /* GFQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFQuery.h; sourceTree = "<group>"; };
+		0230D7391D8CBE0400AF0212 /* GFRegionQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFRegionQuery.h; sourceTree = "<group>"; };
+		0230D73A1D8CBE0400AF0212 /* GeoFire-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire-Prefix.pch"; sourceTree = "<group>"; };
+		0230D73C1D8CBE0400AF0212 /* GeoFire+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire+Private.h"; sourceTree = "<group>"; };
+		0230D73D1D8CBE0400AF0212 /* GeoFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoFire.m; sourceTree = "<group>"; };
+		0230D73E1D8CBE0400AF0212 /* GFBase32Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFBase32Utils.h; sourceTree = "<group>"; };
+		0230D73F1D8CBE0400AF0212 /* GFBase32Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFBase32Utils.m; sourceTree = "<group>"; };
+		0230D7401D8CBE0400AF0212 /* GFGeoHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHash.h; sourceTree = "<group>"; };
+		0230D7411D8CBE0400AF0212 /* GFGeoHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHash.m; sourceTree = "<group>"; };
+		0230D7421D8CBE0400AF0212 /* GFGeoHashQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHashQuery.h; sourceTree = "<group>"; };
+		0230D7431D8CBE0400AF0212 /* GFGeoHashQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHashQuery.m; sourceTree = "<group>"; };
+		0230D7441D8CBE0400AF0212 /* GFQuery+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GFQuery+Private.h"; sourceTree = "<group>"; };
+		0230D7451D8CBE0400AF0212 /* GFQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFQuery.m; sourceTree = "<group>"; };
+		0230D74F1D8CC00800AF0212 /* Chozen-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Chozen-Bridging-Header.h"; sourceTree = "<group>"; };
+		0247A9431D90CF2300927ED3 /* BusinessAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessAnnotation.swift; sourceTree = "<group>"; };
+		025F7C0C1D8CFA8A00D86C9D /* AVViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AVViewController.swift; path = ../AVViewController.swift; sourceTree = "<group>"; };
+		0293DC381D8A26E600C56CA6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		02C881821D8F84790041AC0E /* coffeeShop.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = coffeeShop.mp4; sourceTree = "<group>"; };
+		0DD984AC059785CD5C42D9C7 /* Pods-Chozen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chozen.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chozen/Pods-Chozen.release.xcconfig"; sourceTree = "<group>"; };
+		C81DB14865C55CC8E414B05D /* Pods-Chozen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chozen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chozen/Pods-Chozen.debug.xcconfig"; sourceTree = "<group>"; };
+		CA20C1195887EDD2F5EE1A21 /* Pods_Chozen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chozen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA4FFB73FB99475AD8EDB3EB /* Pods_Chozen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +78,8 @@
 			children = (
 				0200395A1D8A1E0E00830A67 /* Chozen */,
 				020039591D8A1E0E00830A67 /* Products */,
+				E50B13EC01C002F06EF71EA7 /* Pods */,
+				C1524D4A4A46EB53ABF0007B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +94,101 @@
 		0200395A1D8A1E0E00830A67 /* Chozen */ = {
 			isa = PBXGroup;
 			children = (
+				0230D7341D8CBE0400AF0212 /* GeoFire */,
+				0293DC3C1D8A270000C56CA6 /* Controller */,
+				0293DC3B1D8A26FB00C56CA6 /* View */,
+				0293DC3A1D8A26EE00C56CA6 /* Model */,
 				0200395B1D8A1E0E00830A67 /* AppDelegate.swift */,
-				0200395D1D8A1E0E00830A67 /* ViewController.swift */,
-				0200395F1D8A1E0E00830A67 /* Main.storyboard */,
+				02C881821D8F84790041AC0E /* coffeeShop.mp4 */,
 				020039651D8A1E0E00830A67 /* Assets.xcassets */,
 				020039671D8A1E0E00830A67 /* LaunchScreen.storyboard */,
 				0200396A1D8A1E0E00830A67 /* Info.plist */,
-				020039621D8A1E0E00830A67 /* Chozen.xcdatamodeld */,
+				0293DC381D8A26E600C56CA6 /* GoogleService-Info.plist */,
+				0230D74F1D8CC00800AF0212 /* Chozen-Bridging-Header.h */,
 			);
 			path = Chozen;
+			sourceTree = "<group>";
+		};
+		0230D7341D8CBE0400AF0212 /* GeoFire */ = {
+			isa = PBXGroup;
+			children = (
+				0230D7351D8CBE0400AF0212 /* API */,
+				0230D73A1D8CBE0400AF0212 /* GeoFire-Prefix.pch */,
+				0230D73B1D8CBE0400AF0212 /* Implementation */,
+			);
+			path = GeoFire;
+			sourceTree = "<group>";
+		};
+		0230D7351D8CBE0400AF0212 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0230D7361D8CBE0400AF0212 /* GeoFire.h */,
+				0230D7371D8CBE0400AF0212 /* GFCircleQuery.h */,
+				0230D7381D8CBE0400AF0212 /* GFQuery.h */,
+				0230D7391D8CBE0400AF0212 /* GFRegionQuery.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		0230D73B1D8CBE0400AF0212 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				0230D73C1D8CBE0400AF0212 /* GeoFire+Private.h */,
+				0230D73D1D8CBE0400AF0212 /* GeoFire.m */,
+				0230D73E1D8CBE0400AF0212 /* GFBase32Utils.h */,
+				0230D73F1D8CBE0400AF0212 /* GFBase32Utils.m */,
+				0230D7401D8CBE0400AF0212 /* GFGeoHash.h */,
+				0230D7411D8CBE0400AF0212 /* GFGeoHash.m */,
+				0230D7421D8CBE0400AF0212 /* GFGeoHashQuery.h */,
+				0230D7431D8CBE0400AF0212 /* GFGeoHashQuery.m */,
+				0230D7441D8CBE0400AF0212 /* GFQuery+Private.h */,
+				0230D7451D8CBE0400AF0212 /* GFQuery.m */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		0293DC3A1D8A26EE00C56CA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				020039621D8A1E0E00830A67 /* Chozen.xcdatamodeld */,
+				0247A9431D90CF2300927ED3 /* BusinessAnnotation.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0293DC3B1D8A26FB00C56CA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				020D8EA71D91020C000710CC /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0293DC3C1D8A270000C56CA6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				025F7C0C1D8CFA8A00D86C9D /* AVViewController.swift */,
+				020039701D8A258E00830A67 /* MainMapVC.swift */,
+				020039721D8A259D00830A67 /* SideVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C1524D4A4A46EB53ABF0007B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA20C1195887EDD2F5EE1A21 /* Pods_Chozen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E50B13EC01C002F06EF71EA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C81DB14865C55CC8E414B05D /* Pods-Chozen.debug.xcconfig */,
+				0DD984AC059785CD5C42D9C7 /* Pods-Chozen.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0200396D1D8A1E0E00830A67 /* Build configuration list for PBXNativeTarget "Chozen" */;
 			buildPhases = (
+				EC61EF5F2F5A2B8B37559E1C /* [CP] Check Pods Manifest.lock */,
 				020039541D8A1E0E00830A67 /* Sources */,
 				020039551D8A1E0E00830A67 /* Frameworks */,
 				020039561D8A1E0E00830A67 /* Resources */,
+				70B042951A6B316B76B793FF /* [CP] Embed Pods Frameworks */,
+				E8361C53C108F5133BD4D65D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,12 +255,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				020039691D8A1E0E00830A67 /* LaunchScreen.storyboard in Resources */,
+				020D8EA81D91020C000710CC /* Main.storyboard in Resources */,
+				02C881831D8F84790041AC0E /* coffeeShop.mp4 in Resources */,
+				0293DC391D8A26E600C56CA6 /* GoogleService-Info.plist in Resources */,
 				020039661D8A1E0E00830A67 /* Assets.xcassets in Resources */,
-				020039611D8A1E0E00830A67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70B042951A6B316B76B793FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chozen/Pods-Chozen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8361C53C108F5133BD4D65D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chozen/Pods-Chozen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC61EF5F2F5A2B8B37559E1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		020039541D8A1E0E00830A67 /* Sources */ = {
@@ -141,22 +318,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				020039641D8A1E0E00830A67 /* Chozen.xcdatamodeld in Sources */,
-				0200395E1D8A1E0E00830A67 /* ViewController.swift in Sources */,
+				025F7C0D1D8CFA8A00D86C9D /* AVViewController.swift in Sources */,
+				020039731D8A259D00830A67 /* SideVC.swift in Sources */,
+				0230D7471D8CBE0400AF0212 /* GFBase32Utils.m in Sources */,
+				020039711D8A258E00830A67 /* MainMapVC.swift in Sources */,
 				0200395C1D8A1E0E00830A67 /* AppDelegate.swift in Sources */,
+				0230D7491D8CBE0400AF0212 /* GFGeoHashQuery.m in Sources */,
+				0247A9441D90CF2300927ED3 /* BusinessAnnotation.swift in Sources */,
+				0230D74A1D8CBE0400AF0212 /* GFQuery.m in Sources */,
+				0230D7481D8CBE0400AF0212 /* GFGeoHash.m in Sources */,
+				0230D7461D8CBE0400AF0212 /* GeoFire.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0200395F1D8A1E0E00830A67 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				020039601D8A1E0E00830A67 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		020039671D8A1E0E00830A67 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -186,6 +363,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -235,6 +413,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -261,6 +440,7 @@
 		};
 		0200396E1D8A1E0E00830A67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C81DB14865C55CC8E414B05D /* Pods-Chozen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6BL885WGZZ;
@@ -268,12 +448,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.staptix.Chozen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Chozen/Chozen-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		0200396F1D8A1E0E00830A67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DD984AC059785CD5C42D9C7 /* Pods-Chozen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6BL885WGZZ;
@@ -281,6 +463,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.staptix.Chozen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Chozen/Chozen-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -304,6 +487,7 @@
 				0200396F1D8A1E0E00830A67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A313a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="w6u-JN-4rQ">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--MainMapVC-->
+        <scene sceneID="Vsk-Ml-Yua">
+            <objects>
+                <viewController title="MainMapVC" id="w6u-JN-4rQ" customClass="MainMapVC" customModule="Chozen" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fWq-Br-QU6"/>
+                        <viewControllerLayoutGuide type="bottom" id="doF-6i-Ff3"/>
+                    </layoutGuides>
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="qDN-mT-Agl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" rotateEnabled="NO" pitchEnabled="NO" showsUserLocation="YES" showsCompass="NO" showsPointsOfInterest="NO" showsScale="YES" showsTraffic="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k8r-Ml-IYH"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Yn-gk-9yi">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="201" id="8bO-bn-x3h"/>
+                                    <constraint firstAttribute="height" constant="34" id="JLS-Zw-e75"/>
+                                </constraints>
+                                <state key="normal" image="createsnap_btn"/>
+                                <connections>
+                                    <action selector="onBtnTapped:" destination="w6u-JN-4rQ" eventType="touchUpInside" id="zR0-Wf-8NB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="k8r-Ml-IYH" firstAttribute="top" secondItem="qDN-mT-Agl" secondAttribute="top" id="36W-Ry-C2V"/>
+                            <constraint firstAttribute="trailing" secondItem="k8r-Ml-IYH" secondAttribute="trailing" id="Ahk-vO-F1G"/>
+                            <constraint firstItem="9Yn-gk-9yi" firstAttribute="centerX" secondItem="qDN-mT-Agl" secondAttribute="centerX" id="QrH-eM-uCe"/>
+                            <constraint firstItem="k8r-Ml-IYH" firstAttribute="leading" secondItem="qDN-mT-Agl" secondAttribute="leading" id="Wwd-yD-0mS"/>
+                            <constraint firstItem="doF-6i-Ff3" firstAttribute="top" secondItem="k8r-Ml-IYH" secondAttribute="bottom" id="Zh2-pN-z2e"/>
+                            <constraint firstItem="doF-6i-Ff3" firstAttribute="top" secondItem="9Yn-gk-9yi" secondAttribute="bottom" constant="20" id="aaj-75-qzk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="centerBtn" destination="9Yn-gk-9yi" id="Omv-Xe-RfY"/>
+                        <outlet property="mapView" destination="k8r-Ml-IYH" id="HCb-MV-ixD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2QD-7A-Wg0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="255.19999999999999" y="-395.35232383808096"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="OQq-j2-Bih">
+            <objects>
+                <viewController id="TIu-hl-MaT" customClass="AVViewController" customModule="Chozen" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KKN-ep-rZp"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ec4-wb-VHb"/>
+                    </layoutGuides>
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="EK2-kh-Q0f">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.29999999999999999" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DXM-f3-bvb">
+                                <frame key="frameInset" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="02B-It-H6M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1073" y="-395"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="createsnap_btn" width="30" height="30"/>
+    </resources>
+</document>
