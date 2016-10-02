@@ -18,11 +18,11 @@ class AVViewController: UIViewController {
         super.viewDidLoad()
         
         // Load the video from the app bundle.
-        let videoURL: NSURL = Bundle.main.url(forResource: "coffeeShop", withExtension: "mp4")! as NSURL
+        let videoURL: NSURL = Bundle.main.url(forResource: "coffeeShop2", withExtension: "mp4")! as NSURL
         
         player = AVPlayer(url: videoURL as URL)
         player?.actionAtItemEnd = .none
-        player?.isMuted = true
+        player?.isMuted = false
         
         let playerLayer = AVPlayerLayer(player: player)
         playerLayer.videoGravity = AVLayerVideoGravityResizeAspectFill

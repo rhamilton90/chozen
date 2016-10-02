@@ -16,6 +16,8 @@ class MainMapVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate 
     //@IBOutlet weak var detailButton: UIButton!
     //@IBOutlet weak var mainTableView: UITableView!
     @IBOutlet weak var centerBtn: UIButton!
+    @IBOutlet var menuButton:UIBarButtonItem!
+    @IBOutlet var extraButton:UIBarButtonItem!
     
     let locationManager = CLLocationManager()
     var mapHasCenter = false
@@ -27,9 +29,24 @@ class MainMapVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate 
     override func viewDidLoad() {
         super.viewDidLoad()
         print("viewDidLoad")
+        
+        if revealViewController() != nil {
+            revealViewController().rearViewRevealWidth = 260//self.view.intrinsicContentSize.width
+            menuButton.target = revealViewController()
+            menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
+            
+            revealViewController().rightViewRevealWidth = 260 //self.view.intrinsicContentSize.width
+            extraButton.target = revealViewController()
+            extraButton.action = #selector(SWRevealViewController.rightRevealToggle(_:))
+            
+            view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+            
+            
+        }
+        
         mapView.delegate = self
         mapView.userTrackingMode = MKUserTrackingMode.follow
-        centerBtn.isHidden = true
+        //centerBtn.isHidden = true
         
         //self.mainTableView.dataSource = self
         //self.mainTableView.delegate = self
@@ -76,17 +93,41 @@ class MainMapVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate 
         })
     
     }
-    /*
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+        return 3
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
-        cell.textLabel?.text = "Sample Text"
+        //cell.textLabel?.text = "Sample Text"
+        /*
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! NewsTableViewCell
+        
+        // Configure the cell...
+        if indexPath.row == 0 {
+            cell.postImageView.image = UIImage(named: "watchkit-intro")
+            cell.postTitleLabel.text = "WatchKit Introduction: Building a Simple Guess Game"
+            cell.authorLabel.text = "Simon Ng"
+            cell.authorImageView.image = UIImage(named: "author")
+            
+        } else if indexPath.row == 1 {
+            cell.postImageView.image = UIImage(named: "custom-segue-featured-1024")
+            cell.postTitleLabel.text = "Building a Chat App in Swift Using Multipeer Connectivity Framework"
+            cell.authorLabel.text = "Gabriel Theodoropoulos"
+            cell.authorImageView.image = UIImage(named: "appcoda-300")
+            
+        } else {
+            cell.postImageView.image = UIImage(named: "webkit-featured")
+            cell.postTitleLabel.text = "A Beginner’s Guide to Animated Custom Segues in iOS 8"
+            cell.authorLabel.text = "Gabriel Theodoropoulos"
+            cell.authorImageView.image = UIImage(named: "appcoda-300")
+            
+        }
+        */
         return cell
     }
-    */
+   
     
     @IBAction func onBtnTapped(_ sender: AnyObject) {
         print("buttonTap")
@@ -168,23 +209,28 @@ class MainMapVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate 
      
      var annotationView: MKAnnotationView?
      let annoIdentifier = "Business"
-     
+    
      if annotation.isKind(of: MKUserLocation.self) {
-     annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: "User")
-     annotationView?.image = UIImage(named: "ash")
-     } else if let deqAnno = mapView.dequeueReusableAnnotationView(withIdentifier: annoIdentifier) {
+      //Use code below to change user settings
+        
+     //annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: "User")
+     //annotationView?.image = UIImage(named: "ash")
+     }
+     else if let deqAnno = mapView.dequeueReusableAnnotationView(withIdentifier: annoIdentifier) {
      annotationView = deqAnno
      annotationView?.annotation = annotation
-     } else {
+     }
+     
+     else {
      let av = MKAnnotationView(annotation: annotation, reuseIdentifier: annoIdentifier)
      av.rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
      annotationView = av
      }
-     
+        
+     // Adds Button Callout
      if let annotationView = annotationView, let _ = annotation as? BusinessAnnotation {
-     
      annotationView.canShowCallout = true
-     annotationView.image = UIImage(named: "location_icon")
+     annotationView.image = UIImage(named: "destinationpin")
      let btn = UIButton()
      btn.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
      btn.setImage(UIImage(named: "map"), for: .normal)
@@ -193,6 +239,8 @@ class MainMapVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate 
      
      return annotationView
      }
+
+ 
     
     func mapView(_ mapView: MKMapView, regionWillChangeAnimated animated: Bool) {
         

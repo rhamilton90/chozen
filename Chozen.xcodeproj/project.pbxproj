@@ -13,16 +13,22 @@
 		020039691D8A1E0E00830A67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020039671D8A1E0E00830A67 /* LaunchScreen.storyboard */; };
 		020039711D8A258E00830A67 /* MainMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020039701D8A258E00830A67 /* MainMapVC.swift */; };
 		020039731D8A259D00830A67 /* SideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020039721D8A259D00830A67 /* SideVC.swift */; };
+		0204D3011D93943F0017D91F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D3001D93943F0017D91F /* SWRevealViewController.m */; };
+		020784161D9986CA001DBDB1 /* WorkLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020784141D9986CA001DBDB1 /* WorkLoginVC.swift */; };
+		020784171D9986CA001DBDB1 /* HireLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020784151D9986CA001DBDB1 /* HireLoginVC.swift */; };
 		020D8EA81D91020C000710CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020D8EA71D91020C000710CC /* Main.storyboard */; };
 		0230D7461D8CBE0400AF0212 /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = 0230D73D1D8CBE0400AF0212 /* GeoFire.m */; };
 		0230D7471D8CBE0400AF0212 /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0230D73F1D8CBE0400AF0212 /* GFBase32Utils.m */; };
 		0230D7481D8CBE0400AF0212 /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 0230D7411D8CBE0400AF0212 /* GFGeoHash.m */; };
 		0230D7491D8CBE0400AF0212 /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 0230D7431D8CBE0400AF0212 /* GFGeoHashQuery.m */; };
 		0230D74A1D8CBE0400AF0212 /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 0230D7451D8CBE0400AF0212 /* GFQuery.m */; };
+		023A72BF1DA03A1700083030 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023A72BE1DA03A1700083030 /* MaterialView.swift */; };
 		0247A9441D90CF2300927ED3 /* BusinessAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247A9431D90CF2300927ED3 /* BusinessAnnotation.swift */; };
 		025F7C0D1D8CFA8A00D86C9D /* AVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F7C0C1D8CFA8A00D86C9D /* AVViewController.swift */; };
 		0293DC391D8A26E600C56CA6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0293DC381D8A26E600C56CA6 /* GoogleService-Info.plist */; };
-		02C881831D8F84790041AC0E /* coffeeShop.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 02C881821D8F84790041AC0E /* coffeeShop.mp4 */; };
+		02B2CF961DA03DCB0026DB30 /* coffeeShop2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 02B2CF951DA03DCB0026DB30 /* coffeeShop2.mp4 */; };
+		02C008021D998292009CCBCA /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C008001D998292009CCBCA /* CustomTextField.swift */; };
+		02C008031D998292009CCBCA /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C008011D998292009CCBCA /* CustomButton.swift */; };
 		EA4FFB73FB99475AD8EDB3EB /* Pods_Chozen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA20C1195887EDD2F5EE1A21 /* Pods_Chozen.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +41,10 @@
 		0200396A1D8A1E0E00830A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		020039701D8A258E00830A67 /* MainMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMapVC.swift; sourceTree = "<group>"; };
 		020039721D8A259D00830A67 /* SideVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideVC.swift; sourceTree = "<group>"; };
+		0204D2FF1D93943F0017D91F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		0204D3001D93943F0017D91F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		020784141D9986CA001DBDB1 /* WorkLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkLoginVC.swift; sourceTree = "<group>"; };
+		020784151D9986CA001DBDB1 /* HireLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HireLoginVC.swift; sourceTree = "<group>"; };
 		020D8EA71D91020C000710CC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		0230D7361D8CBE0400AF0212 /* GeoFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFire.h; sourceTree = "<group>"; };
 		0230D7371D8CBE0400AF0212 /* GFCircleQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCircleQuery.h; sourceTree = "<group>"; };
@@ -52,10 +62,13 @@
 		0230D7441D8CBE0400AF0212 /* GFQuery+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GFQuery+Private.h"; sourceTree = "<group>"; };
 		0230D7451D8CBE0400AF0212 /* GFQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFQuery.m; sourceTree = "<group>"; };
 		0230D74F1D8CC00800AF0212 /* Chozen-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Chozen-Bridging-Header.h"; sourceTree = "<group>"; };
+		023A72BE1DA03A1700083030 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		0247A9431D90CF2300927ED3 /* BusinessAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessAnnotation.swift; sourceTree = "<group>"; };
 		025F7C0C1D8CFA8A00D86C9D /* AVViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AVViewController.swift; path = ../AVViewController.swift; sourceTree = "<group>"; };
 		0293DC381D8A26E600C56CA6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		02C881821D8F84790041AC0E /* coffeeShop.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = coffeeShop.mp4; sourceTree = "<group>"; };
+		02B2CF951DA03DCB0026DB30 /* coffeeShop2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = coffeeShop2.mp4; sourceTree = "<group>"; };
+		02C008001D998292009CCBCA /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		02C008011D998292009CCBCA /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		0DD984AC059785CD5C42D9C7 /* Pods-Chozen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chozen.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chozen/Pods-Chozen.release.xcconfig"; sourceTree = "<group>"; };
 		C81DB14865C55CC8E414B05D /* Pods-Chozen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chozen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chozen/Pods-Chozen.debug.xcconfig"; sourceTree = "<group>"; };
 		CA20C1195887EDD2F5EE1A21 /* Pods_Chozen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chozen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,9 +112,9 @@
 				0293DC3B1D8A26FB00C56CA6 /* View */,
 				0293DC3A1D8A26EE00C56CA6 /* Model */,
 				0200395B1D8A1E0E00830A67 /* AppDelegate.swift */,
-				02C881821D8F84790041AC0E /* coffeeShop.mp4 */,
 				020039651D8A1E0E00830A67 /* Assets.xcassets */,
 				020039671D8A1E0E00830A67 /* LaunchScreen.storyboard */,
+				02B2CF951DA03DCB0026DB30 /* coffeeShop2.mp4 */,
 				0200396A1D8A1E0E00830A67 /* Info.plist */,
 				0293DC381D8A26E600C56CA6 /* GoogleService-Info.plist */,
 				0230D74F1D8CC00800AF0212 /* Chozen-Bridging-Header.h */,
@@ -150,8 +163,13 @@
 		0293DC3A1D8A26EE00C56CA6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0204D2FF1D93943F0017D91F /* SWRevealViewController.h */,
+				0204D3001D93943F0017D91F /* SWRevealViewController.m */,
 				020039621D8A1E0E00830A67 /* Chozen.xcdatamodeld */,
 				0247A9431D90CF2300927ED3 /* BusinessAnnotation.swift */,
+				023A72BE1DA03A1700083030 /* MaterialView.swift */,
+				02C008001D998292009CCBCA /* CustomTextField.swift */,
+				02C008011D998292009CCBCA /* CustomButton.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -170,6 +188,8 @@
 				025F7C0C1D8CFA8A00D86C9D /* AVViewController.swift */,
 				020039701D8A258E00830A67 /* MainMapVC.swift */,
 				020039721D8A259D00830A67 /* SideVC.swift */,
+				020784141D9986CA001DBDB1 /* WorkLoginVC.swift */,
+				020784151D9986CA001DBDB1 /* HireLoginVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -256,7 +276,7 @@
 			files = (
 				020039691D8A1E0E00830A67 /* LaunchScreen.storyboard in Resources */,
 				020D8EA81D91020C000710CC /* Main.storyboard in Resources */,
-				02C881831D8F84790041AC0E /* coffeeShop.mp4 in Resources */,
+				02B2CF961DA03DCB0026DB30 /* coffeeShop2.mp4 in Resources */,
 				0293DC391D8A26E600C56CA6 /* GoogleService-Info.plist in Resources */,
 				020039661D8A1E0E00830A67 /* Assets.xcassets in Resources */,
 			);
@@ -317,10 +337,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02C008021D998292009CCBCA /* CustomTextField.swift in Sources */,
 				020039641D8A1E0E00830A67 /* Chozen.xcdatamodeld in Sources */,
 				025F7C0D1D8CFA8A00D86C9D /* AVViewController.swift in Sources */,
 				020039731D8A259D00830A67 /* SideVC.swift in Sources */,
+				02C008031D998292009CCBCA /* CustomButton.swift in Sources */,
 				0230D7471D8CBE0400AF0212 /* GFBase32Utils.m in Sources */,
+				020784171D9986CA001DBDB1 /* HireLoginVC.swift in Sources */,
 				020039711D8A258E00830A67 /* MainMapVC.swift in Sources */,
 				0200395C1D8A1E0E00830A67 /* AppDelegate.swift in Sources */,
 				0230D7491D8CBE0400AF0212 /* GFGeoHashQuery.m in Sources */,
@@ -328,6 +351,9 @@
 				0230D74A1D8CBE0400AF0212 /* GFQuery.m in Sources */,
 				0230D7481D8CBE0400AF0212 /* GFGeoHash.m in Sources */,
 				0230D7461D8CBE0400AF0212 /* GeoFire.m in Sources */,
+				0204D3011D93943F0017D91F /* SWRevealViewController.m in Sources */,
+				020784161D9986CA001DBDB1 /* WorkLoginVC.swift in Sources */,
+				023A72BF1DA03A1700083030 /* MaterialView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
